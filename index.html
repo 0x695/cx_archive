@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cx Production Archive">
+    <meta name="author" content="cxarchive">
+    <title>CX_PRODUCTION_ARCHIVE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="term-header">
+        <div class="header-bar">
+            <span class="site-title">CX_PRODUCTION_ARCHIVE</span>
+            <div class="term-chrome">
+                <span class="term-dot"></span>
+                <span class="term-dot"></span>
+                <span class="term-dot"></span>
+                <label class="term-path" for="searchInput">cx@root:~$</label>
+                <div class="term-search-wrap">
+                    <input type="text" id="searchInput" class="term-search" placeholder="" autocomplete="off">
+                    <div class="search-suggestions" id="searchSuggestions"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+                <ul class="carousel-track" id="carouselTrack">
+                <li class="poster-tile tint-kick" data-show="mango" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">MOVIE</span>
+                    </div>
+                    <div class="poster-title">MANGO</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="mr-beanino" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">MOVIE</span>
+                    </div>
+                    <div class="poster-title">MR BEANINO</div>
+                </li>
+                <li class="poster-tile tint-twitch" data-show="cx-factor" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">3 SEASONS</span>
+                    </div>
+                    <div class="poster-title">CX FACTOR</div>
+                </li>
+                <li class="poster-tile tint-mixer" data-show="cx-house" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">2 SEASONS</span>
+                    </div>
+                    <div class="poster-title">CX HOUSE</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="cx-hunger-games" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">1 SEASON</span>
+                    </div>
+                    <div class="poster-title">CX HUNGER GAMES</div>
+                </li>
+                <li class="poster-tile tint-twitch" data-show="cx-prison" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">4 SEASONS</span>
+                    </div>
+                    <div class="poster-title">CX PRISON</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="cx-rat-race" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">1 SEASON</span>
+                    </div>
+                    <div class="poster-title">CX RAT RACE</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="cx-scavenger-hunt" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">2 SEASONS</span>
+                    </div>
+                    <div class="poster-title">CX SCAVENGER HUNT</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="cx-survivor" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">1 SEASON</span>
+                    </div>
+                    <div class="poster-title">CX SURVIVOR</div>
+                </li>
+                <li class="poster-tile tint-kick" data-show="cx-bachelor" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">1 SEASON</span>
+                    </div>
+                    <div class="poster-title">CX BACHELOR</div>
+                </li>
+                <li class="poster-tile tint-twitch" data-show="ufcx" tabindex="0" role="button" aria-haspopup="dialog">
+                    <div class="poster-art">
+                        <span class="poster-badge">2 SEASONS</span>
+                    </div>
+                    <div class="poster-title">UFCX</div>
+                </li>
+                </ul>
+        </section>
+    </main>
+    <footer>
+        <p>CX_PRODUCTION_ARCHIVE</p>
+        <p class="uploader-credits">ARCHIVISTS: <a href="https://www.youtube.com/@FarCar_" target="_blank">FARCAR</a>, <a href="https://www.youtube.com/@FarCarArchive" target="_blank">FARCAR ARCHIVE</a>, <a href="https://www.youtube.com/@CxClipsHighlight" target="_blank">CX CLIPS</a>, <a href="https://www.youtube.com/@PartylandTV" target="_blank">PARTYLANDTV</a>, [ARCHIVIST NAME]</p>
+    </footer>
+
+    <div class="show-detail-sources" hidden>
+    <div class="show-detail-source" id="detail-mango" hidden>
+        <span class="tag-badge tag-seasons">MOVIE</span>
+        <h2 class="detail-title">MANGO</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">MOVIE</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">GARYDAVID EDIT</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=YaxjyLIgyQc">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EDIT 2</span><button type="button" class="ep-btn watch" data-video="">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">MAKING OF</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=17pBIjXm6ng">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=w0nenz39NGE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=7_-FDbf8g-0">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=B32DsqJe_VE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=NtRqYsG6m9s">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-mr-beanino" hidden>
+        <span class="tag-badge tag-seasons">MOVIE</span>
+        <h2 class="detail-title">MR BEANINO</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">MOVIE</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">CXCLIPS EDIT</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=zsGjycFqB4I">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">MAKING OF</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=6bqtVskdRKM">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-factor" hidden>
+        <span class="tag-badge tag-seasons">3 SEASONS</span>
+        <h2 class="detail-title">CX FACTOR</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="TWITCH">TWITCH</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2017">2017</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 2</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="YOUTUBE">YOUTUBE</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2018">2018</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=SPbIFtfeBnc">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 3</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2024">2024</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=jVAsETvwxDw">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-house" hidden>
+        <span class="tag-badge tag-seasons">2 SEASONS</span>
+        <h2 class="detail-title">CX HOUSE</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="MIXER">MIXER</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2020">2020</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=nG_dPiGXmg0">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=idEd6Iip80c">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=rmvaXWA3Qdo">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=HsEAplnTtMA">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 2</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2026">2026</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=F14bCtB7BA0">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=grR13H_Qavk">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=H_CIYE52Mg4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=R4f5-_AWdVE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=QrUwd5QHtYA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=FPL_UYc8uac">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=9_kDxmEX5mA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=onztZtu0SFY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 9</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=ZEqaC5miT_Q">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 10</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=RB3UnpdPnoc">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 11</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=OyXv1_aethI">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 12</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=MnK14E_lXQo">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 13</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=xyLt2e_DD7k">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 14</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=-IqmeZCcw-4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 15</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=jb3lribuIrY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 16</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=mg5r4f0e9UY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 17</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=8jA9i9XJqVw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 18</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=VRimA5UKMDI">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 19</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=ipOIkM4yBrA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 20</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=r98S9x3icJ4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 21</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=r4mOU8cmJNM">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 22</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=NUkCSwuK444">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 23</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=GOfQ89jnuP4">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-hunger-games" hidden>
+        <span class="tag-badge tag-seasons">1 SEASON</span>
+        <h2 class="detail-title">CX HUNGER GAMES</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2024">2024</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=SpedZeiaVS4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=H8bKGqFPfjQ">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=KXYotxA_5QA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=wlAgpy4X6CM">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=64aRMWnOv-o">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=BJ62Gv1aBD4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=vKmOadqgBI8">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=bIkDhbBhPRY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 9</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Bu_ByuUzvic">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 10</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=5vGHBbQefs4">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-prison" hidden>
+        <span class="tag-badge tag-seasons">4 SEASONS</span>
+        <h2 class="detail-title">CX PRISON</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="TWITCH">TWITCH</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2019">2019</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 2</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="YOUTUBE">YOUTUBE</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2022">2022</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 3</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2023">2023</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=7s1B6PpI2NU">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=jbuKdcdnq9Y">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=BSTXbp-X6rs">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=EvkiJ6spyD4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Py64_jYa-kM">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=cJDjGlelNEw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=R0oOn_ia3WM">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 4</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=8H00g3QznC4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=pTPGTPxNs3k">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=LejXkFzvbFo">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=lgASbEhKahQ">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=b26bmFuRSCE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=S1SEs8rtEc4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=1OX7GqPQCT4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=pt7T7EYwqg4">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-rat-race" hidden>
+        <span class="tag-badge tag-seasons">1 SEASON</span>
+        <h2 class="detail-title">CX RAT RACE</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2024">2024</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=aySCk65oHrQ">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=-OP-GINQreE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=zyag7zRBtIU">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=osmctmFpTAI">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=DlfQiciKQdQ">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=pDuMGUDqd6U">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=sxgW83GXcI8">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=4o4gOl68ZXE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 9</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=4_NJYuSq4SQ">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-scavenger-hunt" hidden>
+        <span class="tag-badge tag-seasons">2 SEASONS</span>
+        <h2 class="detail-title">CX SCAVENGER HUNT</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2024">2024</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=q2wZ-Q_hSdY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=skfztiV3bV0">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=erAj77T8vpc">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=aWz4EUpGTvA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=JbOoAhGJTp4">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=IW60EKDtWEY">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 2</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2025">2025</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=ADdbEVLa22I">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=fvGV0_3C24g">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=_Xna2pbOzhw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=D3bigQxH_1o">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=kQrMbmT9E0o">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=DHqJYoIl_Xs">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Sr1iWfJ_Jqw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=74f2RrUraWk">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 9</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=MXiMYgfBeOg">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 10</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=nB8EXtMf_8Q">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 11</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=kv4OWuCag9A">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 12</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=tPF8Ak-Tu6g">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-survivor" hidden>
+        <span class="tag-badge tag-seasons">1 SEASON</span>
+        <h2 class="detail-title">CX SURVIVOR</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="PHILIPPINES">PHILIPPINES</button><button type="button" class="mini-tag filter-tag" data-filter="2024">2024</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=xPJPbzwkTqU">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=XV8RwQMRU3U">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=sHM_6mjgjDU">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=HG2QR6KfXvs">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-cx-bachelor" hidden>
+        <span class="tag-badge tag-seasons">1 SEASON</span>
+        <h2 class="detail-title">CX BACHELOR</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="KICK">KICK</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2026">2026</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=M160bMVdKfk&amp;t=2s">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 2</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=cLo1avgvxaI">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 3</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Mp7zM1ZKLjI">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 4</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=ZhC4g6HXOsw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 5</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=hy8sjUjjYUw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 6</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=7NhdoQ21zIA">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 7</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=o5KZLkH-BkQ">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 8</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=jcaczpbd3tw">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 9</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Mnc7c4W4GPY">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 10</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=l4ehd5txX_M">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 11</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=uoxan1qlIyg">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 12</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=dAH95hq3NZE">WATCH</button></li>
+                    <li class="episode-row"><span class="episode-name">EPISODE 13</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=iz3KTa27YKA">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    <div class="show-detail-source" id="detail-ufcx" hidden>
+        <span class="tag-badge tag-seasons">2 SEASONS</span>
+        <h2 class="detail-title">UFCX</h2>
+        <div class="seasons-list">
+            <details class="season-details" open>
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 1</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="TWITCH">TWITCH</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2017">2017</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="https://www.youtube.com/watch?v=Hk8VqI8FqOo">WATCH</button></li>
+                </ul>
+            </details>
+            <details class="season-details">
+                <summary class="season-summary">
+                    <span class="season-label">SEASON 2</span>
+                    <span class="season-tags"><button type="button" class="mini-tag filter-tag" data-filter="YOUTUBE">YOUTUBE</button><button type="button" class="mini-tag filter-tag" data-filter="USA">USA</button><button type="button" class="mini-tag filter-tag" data-filter="2018">2018</button></span>
+                    <span class="season-chevron">▾</span>
+                </summary>
+                <ul class="episode-list">
+                    <li class="episode-row"><span class="episode-name">EPISODE 1</span><button type="button" class="ep-btn watch" data-video="">WATCH</button></li>
+                </ul>
+            </details>
+                        </div>
+    </div>
+    </div>
+
+    <div class="detail-overlay" id="detailOverlay">
+        <div class="detail-modal">
+            <button type="button" class="detail-close" id="detailClose" aria-label="Close">&#10005;</button>
+            <div class="detail-body" id="detailBody"></div>
+        </div>
+    </div>
+
+    <div class="theater-overlay" id="theaterOverlay">
+        <div class="theater-modal">
+            <button type="button" class="theater-close" id="theaterClose" aria-label="Close video">✕</button>
+            <div class="theater-frame">
+                <iframe id="theaterIframe" src="" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
