@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cx Production Archive">
+    <meta name="description" content="Cx Production Archive — livestream and clip archive, organized by show, season, and episode.">
     <meta name="author" content="cxarchive">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.youtube.com; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CX_PRODUCTION_ARCHIVE">
+    <meta property="og:description" content="Livestream and clip archive, organized by show, season, and episode.">
+    <meta name="twitter:card" content="summary">
     <title>CX_PRODUCTION_ARCHIVE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,7 +114,7 @@
     </main>
     <footer>
         <p>CX_PRODUCTION_ARCHIVE</p>
-        <p class="uploader-credits">ARCHIVISTS: <a href="https://www.youtube.com/@FarCar_" target="_blank">FARCAR</a>, <a href="https://www.youtube.com/@FarCarArchive" target="_blank">FARCAR ARCHIVE</a>, <a href="https://www.youtube.com/@CxClipsHighlight" target="_blank">CX CLIPS</a>, <a href="https://www.youtube.com/@PartylandTV" target="_blank">PARTYLANDTV</a>, [ARCHIVIST NAME]</p>
+        <p class="uploader-credits">ARCHIVISTS: <a href="https://www.youtube.com/@IcePoseidon" target="_blank" rel="noopener noreferrer"><strong>ICE POSEIDON</strong></a>, <a href="https://www.youtube.com/@FarCar_" target="_blank" rel="noopener noreferrer">FARCAR</a>, <a href="https://www.youtube.com/@FarCarArchive" target="_blank" rel="noopener noreferrer">FARCAR ARCHIVE</a>, <a href="https://www.youtube.com/@CxClipsHighlight" target="_blank" rel="noopener noreferrer">CX CLIPS</a>, <a href="https://www.youtube.com/@PartylandTV" target="_blank" rel="noopener noreferrer">PARTYLANDTV</a></p>
     </footer>
 
     <div class="show-detail-sources" hidden>
@@ -492,11 +498,11 @@
         <div class="theater-modal">
             <button type="button" class="theater-close" id="theaterClose" aria-label="Close video">✕</button>
             <div class="theater-frame">
-                <iframe id="theaterIframe" src="" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="theaterIframe" src="" title="Video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
 </body>
 </html>
